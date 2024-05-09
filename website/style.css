@@ -17,15 +17,15 @@ header{
 }
 
 /* min-width: starting point */
-@media (min-width: 500px){
+/* @media (min-width: 500px){
     header{
         background-color: lightcoral;
-    }
+    } */
 
 /* max-width: stopping point */
-@media (max-width: 500px){
+/* @media (max-width: 500px){
     header{
         background-color: lightcyan;
     }
 
-}
+} */

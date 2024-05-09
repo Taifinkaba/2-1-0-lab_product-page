@@ -1,17 +1,49 @@
 header{
     background-color: blueviolet;
     height: 20vh;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+nav{
+    width: 30%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo1{
+    width: 20vh;
 }
 #logo{
     background-color: aquamarine;
     width: 10%;
     height: 100%;
 }
-.first-image{
+.First-Logo{
     height: 10%;
     width: 100%;
 }
+
+.first-image{
+    width: 30vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* min-width: starting point */
 @media (min-width: 500px){

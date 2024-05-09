@@ -1,3 +1,31 @@
-.imageLogo {
-    width: 300px;
+*{
+
+}
+header{
+    background-color: blueviolet;
+    height: 20vh;
+    justify-content: space-between;
+}
+#logo{
+    background-color: aquamarine;
+    width: 10%;
+    height: 100%;
+}
+.first-image{
+    height: 10%;
+    width: 100%;
+}
+
+/* min-width: starting point */
+@media (min-width: 500px){
+    header{
+        background-color: lightcoral;
+    }
+
+/* max-width: stopping point */
+@media (max-width: 500px){
+    header{
+        background-color: lightcyan;
+    }
+
 }

@@ -1,4 +1,6 @@
 header{
+    position: sticky;
+    top: 0;
     background-color: blueviolet;
     height: 20vh;
     display: flex;
@@ -29,6 +31,25 @@ nav ul{
 
 .first-image{
     width: 30vh;
+}
+
+/* video */
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+/* Images */
+.main {
+    display: flex;
+    justify-content: space-between; /* Adjust this according to your layout preference */
+}
+
+#card1,
+#card2,
+#card3 {
+    flex: 1;
+    margin: 0 10px; /* Adjust spacing between cards */
 }
 
 
